@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic - Página Principal</title>
+    <link rel="stylesheet" href="../css/componente_base.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ** CABEÇALHO ** -->
+
+    <header>
+      <div class="div-logo">
+        <img src="../img/logo_organic_finished.png" alt="Logo da Organic" onclick="window.location.href='index.html'" />
+      </div>
+      <nav>
+        <a href="./manutencao.html">Eventos</a>
+        <a href="./manutencao.html">Quem Somos</a>
+        <a href="./manutencao.html">Contato</a>
+        <a href="./manutencao.html" id="menu-nav-login">Login</a>
+        <a href="./cadastre_se.html" id="menu-nav-cadastre-se">Cadastre-se</a>
+      </nav>
+    </header>
+
+    <!-- ** CONTEÚDO PRINCIPAL ** -->
+
+    <main>
+      <!-- ** LADO ESQUERDO ** -->
+
+      <div class="container-lado-esquerdo">
+        <h1>Boas-vindas aos maiores eventos de feira orgânica da América Latina!</h1>
+
+        <div class="div-subtitulo-lado-esquerdo">
+          <h3>
+            Aqui você encontrará os mais diversos tipos de plantas, desde mudas de árvores até as flores mais exóticas, além de grãos raros e muitas
+            dicas de como cuidar da sua plantinha.
+          </h3>
+          <h3>Inscreva-se abaixo para os eventos mais próximos do seu endereço!</h3>
+        </div>
+
+        <!-- BOTÕES LADO ESQUERDO -->
+
+        <div class="div-botoes-lado-esquerdo">
+          <button id="botao-inscreva-se-esquerdo" onclick="window.location.href='cadastre_se.html'">Inscreva-se</button>
+          <button id="botao-saiba-mais-esquerdo" onclick="window.location.href='manutencao.html'">Saiba Mais...</button>
+        </div>
+      </div>
+
+      <!-- ** LADO DIREITO ** -->
+
+      <div class="container-lado-direito">
+        <div class="div-subtitulo-lado-direito">
+          <h2>O maior evento desta temporada acontecerá em:</h2>
+          <h2 id="h2-localizacao">Recife-PE</h2>
+        </div>
+
+        <!-- BOTÕES LADO DIREITO -->
+
+        <div class="div-botoes-lado-direito">
+          <button id="botao-inscreva-se-direito" onclick="window.location.href='cadastre_se.html'">Inscreva-se para este evento</button>
+          <button id="botao-saiba-mais-direito" onclick="window.location.href='manutencao.html'">Saiba mais sobre este evento...</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

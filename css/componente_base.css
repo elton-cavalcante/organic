@@ -1,0 +1,99 @@
+/* CONFIGURAÇÕES INICIAIS */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@font-face {
+  font-family: Jockey One;
+  src: url(../fonts/JockeyOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: JejuGothic;
+  src: url(../fonts/JejuGothic-Regular.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(../img/plano_de_fundo.jpg);
+  background-size: cover;
+  color: #fff;
+  font-family: Inter, sans-serif;
+}
+
+/* CABEÇALHO */
+
+header,
+nav {
+  height: 18vh;
+  display: flex;
+}
+
+header {
+  width: 100vw;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+header .div-logo {
+  width: 30vw;
+  padding-left: 8.4vh;
+}
+
+header .div-logo img {
+  width: 38%;
+  height: 14vh;
+  cursor: pointer;
+}
+
+nav {
+  width: 80%;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10vh;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 1.5vh;
+  transition: 100ms;
+}
+
+nav #menu-nav-login,
+nav #menu-nav-cadastre-se {
+  border: 4px solid #fff;
+  border-radius: 10px;
+  padding: 1.5vh 4vh;
+  transition: 250ms;
+}
+
+nav #menu-nav-cadastre-se {
+  color: #000;
+  background-color: #fff;
+}
+
+/* HOVER */
+
+nav a:hover {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+nav #menu-nav-login:hover {
+  background-color: #fff;
+  color: #077812;
+}
+
+nav #menu-nav-cadastre-se:hover {
+  color: #fff;
+  background-color: #077812;
+}

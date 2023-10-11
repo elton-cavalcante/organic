@@ -1,0 +1,145 @@
+/* CONTEÚDO PRINCIPAL */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 70%;
+  height: 75vh;
+  background-color: rgba(217, 217, 217, 45%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+form .titulo-principal {
+  display: flex;
+  justify-content: center;
+}
+
+form h1 {
+  font-family: Jockey One, sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  width: 80%;
+  padding: 0.5vh 0;
+  text-align: center;
+}
+
+.container-form {
+  display: flex;
+}
+
+.container-form .lado-esquerdo,
+.container-form .lado-direito {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lado-esquerdo {
+  padding: 0 2vh;
+}
+
+.lado-esquerdo label {
+  padding: 1vh 0;
+  font-family: Inter, sans-serif;
+}
+
+.lado-esquerdo input {
+  width: 80%;
+  height: 3.6vh;
+  border: none;
+  border-radius: 5px;
+  padding: 0 1vh;
+}
+
+.aceita-termos {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-top: 1vh;
+}
+
+.aceita-termos #checkbox {
+  width: 2.5vh;
+  height: 2.5vh;
+  margin-right: 1vh;
+}
+
+.aceita-termos label {
+  font-family: Inter, sans-serif;
+  width: 80%;
+  font-size: 0.8rem;
+}
+
+.aceita-termos a {
+  color: #fff;
+}
+
+.lado-esquerdo button {
+  width: 80%;
+  height: 5vh;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #003205;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+
+.lado-direito {
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.cadastro-google-facebook {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 8vh;
+}
+
+.cadastro-google-facebook img {
+  width: 5vh;
+  height: 5vh;
+}
+
+.subtitulo-lado-direito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitulo-lado-direito h2 {
+  text-transform: uppercase;
+  font-family: Jockey One, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.cadastro-google-facebook .div-google,
+.cadastro-google-facebook .div-facebook {
+  display: flex;
+  align-items: center;
+  border: 4px solid #003205;
+  background-color: rgba(0, 50, 5, 40%);
+  border-radius: 5px;
+  padding: 2vh;
+}
+
+.div-google img,
+.div-facebook img {
+  margin-right: 1vh;
+}
+

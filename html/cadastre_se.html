@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se na Organic!</title>
+    <link rel="stylesheet" href="../css/componente_base.css" />
+    <link rel="stylesheet" href="../css/cadastre_se.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+
+    <header>
+      <div class="div-logo">
+        <img src="../img/logo_organic_finished.png" alt="Logo da Organic" onclick="window.location.href='index.html'" />
+      </div>
+      <nav>
+        <a href="./manutencao.html">Eventos</a>
+        <a href="./manutencao.html">Quem Somos</a>
+        <a href="./manutencao.html">Contato</a>
+        <a href="./manutencao.html" id="menu-nav-login">Login</a>
+        <a href="./cadastre_se.html" id="menu-nav-cadastre-se">Cadastre-se</a>
+      </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+
+    <main>
+      <form>
+        <div class="titulo-principal">
+          <h1>Tenha acesso completo à maior plataforma de feiras orgânicas da América Latina!</h1>
+        </div>
+        <div class="container-form">
+
+          <!-- LADO ESQUERDO -->
+
+          <div class="lado-esquerdo">
+            <label for="input-nome-completo">Nome Completo:</label>
+            <input type="text" id="input-nome-completo" required />
+
+            <label for="input-cpf">CPF:</label>
+            <input type="cpf" id="input-cpf" placeholder="123.456.789-10" required />
+
+            <label for="input-email">E-mail:</label>
+            <input type="email" id="input-email" required />
+
+            <label for="input-senha">Senha:</label>
+            <input type="password" id="input-senha" required />
+
+            <label for="input-data-nascimento">Data de Nascimento:</label>
+            <input type="date" id="input-data-nascimento" required />
+
+            <div class="aceita-termos">
+              <input type="checkbox" name="checkbox" id="checkbox" required />
+              <label for="checkbox"
+                >Declaro que li e concordo com os <a href="./manutencao.html">Termos de Uso</a> e a
+                <a href="./manutencao.html">Política de Privacidade</a> da Organic Corporation.</label
+              >
+            </div>
+
+            <button onclick="window.location.href='manutencao.html'">Cadastre-se</button>
+          </div>
+
+          <!-- LADO DIREITO -->
+          
+          <div class="lado-direito">
+            <div class="subtitulo-lado-direito">
+              <h2>Cadastre-se ao lado</h2>
+              <h2>Ou</h2>
+            </div>
+
+            <div class="cadastro-google-facebook">
+              <div class="div-google">
+                <img src="../img/google_logo.png" alt="Logo da Google" />
+                <h3>Entre com o Google</h3>
+              </div>
+
+              <div class="div-facebook">
+                <img src="../img/facebook_logo.png" alt="Logo do Facebook" />
+                <h3>Entre com o Facebook</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

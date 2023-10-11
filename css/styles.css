@@ -1,0 +1,147 @@
+/* -- CONTEÚDO PRINCIPAL -- */
+
+main {
+  display: flex;
+  align-items: center;
+  height: 74vh;
+  color: #fff;
+}
+
+/* -- LADO ESQUERDO -- */
+
+/* CONTAINER LADO ESQUERDO */
+
+.container-lado-esquerdo {
+  width: 50vw;
+  padding-left: 10vh;
+}
+
+.container-lado-esquerdo h1,
+.container-lado-direito h2 {
+  text-transform: uppercase;
+  font-family: Jockey One, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.container-lado-esquerdo h1,
+.container-lado-esquerdo h3,
+.div-botoes-lado-esquerdo {
+  width: 70%;
+}
+
+.container-lado-esquerdo h1 {
+  text-align: left;
+  margin-bottom: 3vh;
+  text-align: left;
+}
+
+/* SUBTÍTULO LADO ESQUERDO */
+
+.div-subtitulo-lado-esquerdo {
+  height: 26vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.div-subtitulo-lado-esquerdo h3 {
+  font-family: JejuGothic, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* BOTÕES LADO ESQUERDO */
+
+.div-botoes-lado-esquerdo {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+#botao-inscreva-se-esquerdo,
+#botao-saiba-mais-esquerdo,
+#botao-inscreva-se-direito,
+#botao-saiba-mais-direito {
+  padding: 1.5vh 5vh;
+  border: 4px solid #fff;
+  border-radius: 8px;
+  background: none;
+  text-transform: uppercase;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+#botao-inscreva-se-esquerdo,
+#botao-inscreva-se-direito {
+  color: #fff;
+  background-color: #077812;
+}
+
+#botao-saiba-mais-esquerdo,
+#botao-saiba-mais-direito {
+  color: #077812;
+  background-color: #fff;
+}
+
+/* -- LADO DIREITO -- */
+
+/* CONTAINER LADO DIREITO */
+
+.container-lado-direito {
+  width: 50vw;
+  padding-right: 10vh;
+}
+
+/* SUBTÍTULO LADO DIREITO */
+
+.div-subtitulo-lado-direito {
+  height: 32vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.div-subtitulo-lado-direito h2 {
+  margin-bottom: 3vh;
+  text-align: right;
+  width: 85%;
+}
+
+#h2-localizacao {
+  color: #02ff1b;
+}
+
+/* BOTÕES LADO DIREITO */
+
+.div-botoes-lado-direito {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+}
+
+#botao-inscreva-se-direito,
+#botao-saiba-mais-direito {
+  width: 60%;
+}
+#botao-saiba-mais-direito {
+  margin-top: 2.5vh;
+}
+
+/* -- HOVER -- */
+
+/* BOTÕES LADOS ESQUERDO / DIREITO */
+
+#botao-inscreva-se-esquerdo:hover,
+#botao-inscreva-se-direito:hover,
+#botao-saiba-mais-esquerdo:hover,
+#botao-saiba-mais-direito:hover {
+  scale: calc(1.05);
+}
